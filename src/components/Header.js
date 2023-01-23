@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/AboutMe';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import "../styles/Header.css";
 
 export default function Header() {
   const [currentPage, setCurrentPage] = useState('About');

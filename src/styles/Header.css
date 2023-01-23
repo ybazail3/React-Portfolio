@@ -1,13 +1,7 @@
-.header {
-  background: #13f960;
-  height: 200px;
+.heading {
+  display: flex;
+  justify-content: center;
+  color: #65a1b7;
+  margin: 3%;
   font-family: 'Julius Sans One', sans-serif;
-}
-
-.header h1 {
-  margin: 0;
-  padding-top: 75px;
-  text-align: center;
-  color: white;
-  font-size: 3rem;
 }

@@ -1,18 +1,19 @@
-.aboutImg {
+.about {
     width: 170px;
     height: 250px;
     border-radius: 50%;
     border-style: dotted;
-    border-color: pink;
+    border-color: black;
     margin: 3%;
 }
 
 .aboutme-container {
-    font-family: 'Lato', sans-serif;
-  
+    color: #65a1b7;
+    margin: 3%;
 }
 
 .aboutme-text {
+    color: grey; 
     margin: 3%;
     padding: 2%;
 }

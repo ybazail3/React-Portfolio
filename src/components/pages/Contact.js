@@ -42,7 +42,7 @@ export default function Contact(props) {
     e.preventDefault();
 
     if (!name || !email || !comments) {
-      setError('Please fill out all sections')
+      setError('Fill out all sections')
       return;
     } else if (!valEmail(email)) {
       setError('Enter valid email')
@@ -56,7 +56,7 @@ export default function Contact(props) {
   };
 
   return (
-    <div>
+    <div className="contact-page">
       <h1>Let's Connect!</h1>
       <form className="contact-form" onSubmit={handleSubmit}>
         <input
@@ -89,9 +89,9 @@ export default function Contact(props) {
 
         {error && (
           <div>
-            <p>
+            <alert>
               {error}
-            </p>
+            </alert>
           </div>
         )}
 
