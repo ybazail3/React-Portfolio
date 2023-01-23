@@ -1,28 +1,24 @@
 import React from 'react';
 import '../../styles/Resume.css';
-import Container from 'react-bootstrap/Container';
-import imgOne from '../../images/resume.png';
-import url from '../../images/Resume.pdf'
+import resume from '../../images/Resume.pdf';
 
 export default function Resume() {
 
   return (
-    <div>
-      <Container>
+    <div className="resume-body">
       <h1>Resume</h1>
-      <a className="img" href={url} download>
-      <img src={imgOne}></img>
+        <a href={resume} download>Download Resume Here
       </a>
-        <p>
+        <ul className="ul-proficiencies">
         Proficiencies: 
-            - CSS
-            - HTML
-            - JavaScript
-            - NodeJS
-            - GitHub
-            - MySQL
-        </p>
-        </Container>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>NodeJS</li>
+            <li>Javascript</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>Express.js</li>
+        </ul>
     </div>
   );
 }

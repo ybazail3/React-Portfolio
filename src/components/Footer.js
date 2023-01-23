@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Header.css';
+import '../styles/Footer.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -9,7 +9,7 @@ import { faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 export default function Footer() {
     return (
         <footer>
-            <div>
+            <div className="footer">
                 <a href="https://github.com/ybazail3">
                     <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                 </a>
