@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
-import { valEmail } from '../utils/validateEmail';
 import '../../styles/Contact.css';
 
 export default function Contact(props) {
+  function validate(email) {
+    const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
+    return regex.test(String(email).toLowerCase());
+}
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [comments, setComments] = useState('');
@@ -30,7 +33,7 @@ export default function Contact(props) {
     if ((inputType === 'Name' || inputType === 'Comments') && inputValue.length < 1) {
       setError(`${inputType} is required`);
       return;
-    } else if (inputType === 'Email' && !valEmail(inputValue)) {
+    } else if (inputType === 'Email' && !validate(inputValue)) {
       setError('Enter valid email')
       return;
     } else {
@@ -44,7 +47,7 @@ export default function Contact(props) {
     if (!name || !email || !comments) {
       setError('Fill out all sections')
       return;
-    } else if (!valEmail(email)) {
+    } else if (!validate(email)) {
       setError('Enter valid email')
       return;
     } else {
