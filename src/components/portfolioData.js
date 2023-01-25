@@ -1,9 +1,9 @@
-import FP from '../../images/firstportfolio.png';
-import ET from '../../images/employeetracker.png';
-import RM from '../../images/readmegen.png';
-import jate from '../../images/jate.png';
-import DD from '../../images/datadeposits.png';
-import DA from '../../images/drinking-around.png';
+import FP from '../images/firstportfolio.png';
+import ET from '../images/employeetracker.png';
+import RM from '../images/readmegen.png';
+import jate from '../images/jate.png';
+import DD from '../images/datadeposits.png';
+import DA from '../images/drinking-around.png';
 
 export const projects = [
     {
@@ -49,7 +49,3 @@ export const projects = [
         title: "Drinking Around"
     },
 ]
-
-export default {
-    projects,
-}
