@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.7c217a6f.css",
-    "main.js": "/React-Portfolio/static/js/main.2b37e9b2.js",
-    "static/media/me.jpeg": "/React-Portfolio/static/media/me.4ba53c84339f1badcb8a.jpeg",
-    "static/media/firstportfolio.png": "/React-Portfolio/static/media/firstportfolio.27090504d75e3a9b8860.png",
-    "static/media/drinking-around.png": "/React-Portfolio/static/media/drinking-around.ec0cae9adddcfcb8a96c.png",
-    "static/media/readmegen.png": "/React-Portfolio/static/media/readmegen.8b172bcf9ba6dc0c01db.png",
-    "static/media/employeetracker.png": "/React-Portfolio/static/media/employeetracker.32bc4573b920d2218559.png",
-    "static/media/datadeposits.png": "/React-Portfolio/static/media/datadeposits.391815e8772984551c84.png",
-    "static/media/Resume.pdf": "/React-Portfolio/static/media/Resume.f9dc8cf60b2ba9ceb6f8.pdf",
-    "static/media/jate.png": "/React-Portfolio/static/media/jate.0dbafafc1ecb5077da1f.png",
-    "index.html": "/React-Portfolio/index.html",
-    "main.7c217a6f.css.map": "/React-Portfolio/static/css/main.7c217a6f.css.map",
-    "main.2b37e9b2.js.map": "/React-Portfolio/static/js/main.2b37e9b2.js.map"
+    "main.css": "/react-portfolio/static/css/main.fdfb2004.css",
+    "main.js": "/react-portfolio/static/js/main.6ac21d33.js",
+    "static/media/me.jpeg": "/react-portfolio/static/media/me.4ba53c84339f1badcb8a.jpeg",
+    "static/media/firstportfolio.png": "/react-portfolio/static/media/firstportfolio.27090504d75e3a9b8860.png",
+    "static/media/drinking-around.png": "/react-portfolio/static/media/drinking-around.ec0cae9adddcfcb8a96c.png",
+    "static/media/readmegen.png": "/react-portfolio/static/media/readmegen.8b172bcf9ba6dc0c01db.png",
+    "static/media/employeetracker.png": "/react-portfolio/static/media/employeetracker.32bc4573b920d2218559.png",
+    "static/media/datadeposits.png": "/react-portfolio/static/media/datadeposits.391815e8772984551c84.png",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.f9dc8cf60b2ba9ceb6f8.pdf",
+    "static/media/Screenshot 2023-02-06 at 8.48.58 PM (2).png": "/react-portfolio/static/media/Screenshot 2023-02-06 at 8.48.58 PM (2).eb51a55e7ca46390fbcf.png",
+    "static/media/jate.png": "/react-portfolio/static/media/jate.0dbafafc1ecb5077da1f.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.fdfb2004.css.map": "/react-portfolio/static/css/main.fdfb2004.css.map",
+    "main.6ac21d33.js.map": "/react-portfolio/static/js/main.6ac21d33.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c217a6f.css",
-    "static/js/main.2b37e9b2.js"
+    "static/css/main.fdfb2004.css",
+    "static/js/main.6ac21d33.js"
   ]
 }
