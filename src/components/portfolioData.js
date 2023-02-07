@@ -4,6 +4,7 @@ import RM from '../images/readmegen.png';
 import jate from '../images/jate.png';
 import DD from '../images/datadeposits.png';
 import DA from '../images/drinking-around.png';
+import CC from '../images/Screenshot 2023-02-06 at 8.48.58 PM (2).png';
 
 export const projects = [
     {
@@ -48,4 +49,11 @@ export const projects = [
         gitHub: "https://github.com/ybazail3/Drinking-around",
         title: "Drinking Around"
     },
+    {
+        img: CC,
+        alt: "Curriculum Corner",
+        url: "https://pacific-anchorage-45596.herokuapp.com/",
+        gitHub: "https://github.com/andreahergert/curriculum_corner",
+        title: "Curriculum Corner"
+    }
 ]
